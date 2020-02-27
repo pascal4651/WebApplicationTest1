@@ -11,6 +11,9 @@ namespace WebApplicationTest1.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        // just added this line
+        private List<string> somestring = new List<string>();
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
